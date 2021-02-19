@@ -1,4 +1,9 @@
-import { HttpException, HttpStatus, Injectable, NestMiddleware } from '@nestjs/common';
+import {
+  HttpException,
+  HttpStatus,
+  Injectable,
+  NestMiddleware,
+} from '@nestjs/common';
 import { TOKEN_KEY, WHITE_LIST } from 'src/constant/constant';
 import { TokenService } from 'src/modules/token/token.service';
 import { UserService } from 'src/modules/user/user.service';
